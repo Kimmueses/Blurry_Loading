@@ -1,5 +1,5 @@
 /* Importing google font */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 /* Setting universal selector to apply this to all the content */
 * {
@@ -7,12 +7,28 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubunto", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+/* Setting blurred bg image to be behind the text and adjusting thickness of edges shadow when blurred */
+.bg {
+  background: url(https://i.etsystatic.com/33719781/r/il/7db728/4308376691/il_794xN.4308376691_jqvi.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: -30;
+  left: -30;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);  
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #0f5137;
 }
