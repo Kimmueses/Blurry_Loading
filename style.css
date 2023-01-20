@@ -18,7 +18,7 @@ body {
 
 /* Setting blurred bg image to be behind the text and adjusting thickness of edges shadow when blurred */
 .bg {
-  background: url(https://i.etsystatic.com/33719781/r/il/7db728/4308376691/il_794xN.4308376691_jqvi.jpg) no-repeat center center/cover;
+  background: url(https://images.unsplash.com/photo-1536928966032-83f683b965ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat center center/cover;
   position: absolute;
   top: -30;
   left: -30;
@@ -30,5 +30,5 @@ body {
 
 .loading-text {
   font-size: 50px;
-  color: #0f5137;
+  color: black;
 }
